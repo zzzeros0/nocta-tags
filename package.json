@@ -1,0 +1,44 @@
+{
+  "name": "nocta-tags",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zzzeros0/nocta-tags.git"
+  },
+  "keywords": [
+    "framework",
+    "web",
+    "web-ui",
+    "render",
+    "web-app",
+    "web-components",
+    "html",
+    "ux",
+    "ui",
+    "front-end",
+    "frontend",
+    "typescript",
+    "nocta",
+    "nocta-tags",
+    "tag",
+    "client"
+  ],
+  "author": "zzzeros0",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "nocta": "^1.1.3"
+  }
+}
