@@ -15,8 +15,7 @@ function _c_t<T extends Nocta.HTMLTags>(tag: T, args: any[]): Nocta.Tag<T> {
 }
 
 /**
- * a
- * Creates a Tag node
+ * a - Creates a Tag node
  */
 export function a(): Nocta.Tag<"a">;
 export function a(props: Nocta.HTMLProps<"a">): Nocta.Tag<"a">;
@@ -30,8 +29,7 @@ export function a(...args: any[]): Nocta.Tag<"a"> {
 }
 
 /**
- * abbr
- * Creates abbr Tag node
+ * abbr - Creates abbr Tag node
  */
 export function abbr(): Nocta.Tag<"abbr">;
 export function abbr(props: Nocta.HTMLProps<"abbr">): Nocta.Tag<"abbr">;
@@ -45,8 +43,7 @@ export function abbr(...args: any[]): Nocta.Tag<"abbr"> {
 }
 
 /**
- * address
- * Creates address Tag node
+ * address - Creates address Tag node
  */
 export function address(): Nocta.Tag<"address">;
 export function address(
@@ -62,16 +59,14 @@ export function address(...args: any[]): Nocta.Tag<"address"> {
 }
 
 /**
- * area
- * Creates area Tag node
+ * area - Creates area Tag node
  */
 export function area(props?: Nocta.HTMLProps<"area">): Nocta.Tag<"area"> {
   return props ? Tag("area", props) : Tag("area");
 }
 
 /**
- * article
- * Creates article Tag node
+ * article - Creates article Tag node
  */
 export function article(): Nocta.Tag<"article">;
 export function article(
@@ -87,8 +82,7 @@ export function article(...args: any[]): Nocta.Tag<"article"> {
 }
 
 /**
- * aside
- * Creates aside Tag node
+ * aside - Creates aside Tag node
  */
 export function aside(): Nocta.Tag<"aside">;
 export function aside(props: Nocta.HTMLProps<"aside">): Nocta.Tag<"aside">;
@@ -102,8 +96,7 @@ export function aside(...args: any[]): Nocta.Tag<"aside"> {
 }
 
 /**
- * audio
- * Creates audio Tag node
+ * audio - Creates audio Tag node
  */
 export function audio(): Nocta.Tag<"audio">;
 export function audio(props: Nocta.HTMLProps<"audio">): Nocta.Tag<"audio">;
@@ -117,8 +110,7 @@ export function audio(...args: any[]): Nocta.Tag<"audio"> {
 }
 
 /**
- * b
- * Creates b Tag node
+ * b - Creates b Tag node
  */
 export function b(): Nocta.Tag<"b">;
 export function b(props: Nocta.HTMLProps<"b">): Nocta.Tag<"b">;
@@ -132,16 +124,14 @@ export function b(...args: any[]): Nocta.Tag<"b"> {
 }
 
 /**
- * base
- * Creates base Tag node
+ * base - Creates base Tag node
  */
 export function base(props?: Nocta.HTMLProps<"base">): Nocta.Tag<"base"> {
   return props ? Tag("base", props) : Tag("base");
 }
 
 /**
- * bdi
- * Creates bdi Tag node
+ * bdi - Creates bdi Tag node
  */
 export function bdi(): Nocta.Tag<"bdi">;
 export function bdi(props: Nocta.HTMLProps<"bdi">): Nocta.Tag<"bdi">;
@@ -155,8 +145,7 @@ export function bdi(...args: any[]): Nocta.Tag<"bdi"> {
 }
 
 /**
- * bdo
- * Creates bdo Tag node
+ * bdo - Creates bdo Tag node
  */
 export function bdo(): Nocta.Tag<"bdo">;
 export function bdo(props: Nocta.HTMLProps<"bdo">): Nocta.Tag<"bdo">;
@@ -170,8 +159,7 @@ export function bdo(...args: any[]): Nocta.Tag<"bdo"> {
 }
 
 /**
- * blockquote
- * Creates blockquote Tag node
+ * blockquote - Creates blockquote Tag node
  */
 export function blockquote(): Nocta.Tag<"blockquote">;
 export function blockquote(
@@ -189,8 +177,7 @@ export function blockquote(...args: any[]): Nocta.Tag<"blockquote"> {
 }
 
 /**
- * body
- * Creates body Tag node
+ * body - Creates body Tag node
  */
 export function body(): Nocta.Tag<"body">;
 export function body(props: Nocta.HTMLProps<"body">): Nocta.Tag<"body">;
@@ -204,16 +191,14 @@ export function body(...args: any[]): Nocta.Tag<"body"> {
 }
 
 /**
- * br
- * Creates br Tag node
+ * br - Creates br Tag node
  */
 export function br(props?: Nocta.HTMLProps<"br">): Nocta.Tag<"br"> {
   return props ? Tag("br", props) : Tag("br");
 }
 
 /**
- * button
- * Creates button Tag node
+ * button - Creates button Tag node
  */
 export function button(): Nocta.Tag<"button">;
 export function button(props: Nocta.HTMLProps<"button">): Nocta.Tag<"button">;
@@ -227,8 +212,7 @@ export function button(...args: any[]): Nocta.Tag<"button"> {
 }
 
 /**
- * canvas
- * Creates canvas Tag node
+ * canvas - Creates canvas Tag node
  */
 export function canvas(): Nocta.Tag<"canvas">;
 export function canvas(props: Nocta.HTMLProps<"canvas">): Nocta.Tag<"canvas">;
@@ -242,8 +226,7 @@ export function canvas(...args: any[]): Nocta.Tag<"canvas"> {
 }
 
 /**
- * caption
- * Creates caption Tag node
+ * caption - Creates caption Tag node
  */
 export function caption(): Nocta.Tag<"caption">;
 export function caption(
@@ -259,8 +242,7 @@ export function caption(...args: any[]): Nocta.Tag<"caption"> {
 }
 
 /**
- * cite
- * Creates cite Tag node
+ * cite - Creates cite Tag node
  */
 export function cite(): Nocta.Tag<"cite">;
 export function cite(props: Nocta.HTMLProps<"cite">): Nocta.Tag<"cite">;
@@ -274,8 +256,7 @@ export function cite(...args: any[]): Nocta.Tag<"cite"> {
 }
 
 /**
- * code
- * Creates code Tag node
+ * code - Creates code Tag node
  */
 export function code(): Nocta.Tag<"code">;
 export function code(props: Nocta.HTMLProps<"code">): Nocta.Tag<"code">;
@@ -289,16 +270,14 @@ export function code(...args: any[]): Nocta.Tag<"code"> {
 }
 
 /**
- * col
- * Creates col Tag node
+ * col - Creates col Tag node
  */
 export function col(props?: Nocta.HTMLProps<"col">): Nocta.Tag<"col"> {
   return props ? Tag("col", props) : Tag("col");
 }
 
 /**
- * colgroup
- * Creates colgroup Tag node
+ * colgroup - Creates colgroup Tag node
  */
 export function colgroup(): Nocta.Tag<"colgroup">;
 export function colgroup(
@@ -314,8 +293,7 @@ export function colgroup(...args: any[]): Nocta.Tag<"colgroup"> {
 }
 
 /**
- * data
- * Creates data Tag node
+ * data - Creates data Tag node
  */
 export function data(): Nocta.Tag<"data">;
 export function data(props: Nocta.HTMLProps<"data">): Nocta.Tag<"data">;
@@ -329,8 +307,7 @@ export function data(...args: any[]): Nocta.Tag<"data"> {
 }
 
 /**
- * datalist
- * Creates datalist Tag node
+ * datalist - Creates datalist Tag node
  */
 export function datalist(): Nocta.Tag<"datalist">;
 export function datalist(
@@ -346,8 +323,7 @@ export function datalist(...args: any[]): Nocta.Tag<"datalist"> {
 }
 
 /**
- * dd
- * Creates dd Tag node
+ * dd - Creates dd Tag node
  */
 export function dd(): Nocta.Tag<"dd">;
 export function dd(props: Nocta.HTMLProps<"dd">): Nocta.Tag<"dd">;
@@ -361,8 +337,7 @@ export function dd(...args: any[]): Nocta.Tag<"dd"> {
 }
 
 /**
- * del
- * Creates del Tag node
+ * del - Creates del Tag node
  */
 export function del(): Nocta.Tag<"del">;
 export function del(props: Nocta.HTMLProps<"del">): Nocta.Tag<"del">;
@@ -376,8 +351,7 @@ export function del(...args: any[]): Nocta.Tag<"del"> {
 }
 
 /**
- * details
- * Creates details Tag node
+ * details - Creates details Tag node
  */
 export function details(): Nocta.Tag<"details">;
 export function details(
@@ -393,8 +367,7 @@ export function details(...args: any[]): Nocta.Tag<"details"> {
 }
 
 /**
- * dfn
- * Creates dfn Tag node
+ * dfn - Creates dfn Tag node
  */
 export function dfn(): Nocta.Tag<"dfn">;
 export function dfn(props: Nocta.HTMLProps<"dfn">): Nocta.Tag<"dfn">;
@@ -408,8 +381,7 @@ export function dfn(...args: any[]): Nocta.Tag<"dfn"> {
 }
 
 /**
- * dialog
- * Creates dialog Tag node
+ * dialog - Creates dialog Tag node
  */
 export function dialog(): Nocta.Tag<"dialog">;
 export function dialog(props: Nocta.HTMLProps<"dialog">): Nocta.Tag<"dialog">;
@@ -423,8 +395,7 @@ export function dialog(...args: any[]): Nocta.Tag<"dialog"> {
 }
 
 /**
- * div
- * Creates div Tag node
+ * div - Creates div Tag node
  */
 export function div(): Nocta.Tag<"div">;
 export function div(props: Nocta.HTMLProps<"div">): Nocta.Tag<"div">;
@@ -438,8 +409,7 @@ export function div(...args: any[]): Nocta.Tag<"div"> {
 }
 
 /**
- * dl
- * Creates dl Tag node
+ * dl - Creates dl Tag node
  */
 export function dl(): Nocta.Tag<"dl">;
 export function dl(props: Nocta.HTMLProps<"dl">): Nocta.Tag<"dl">;
@@ -453,8 +423,7 @@ export function dl(...args: any[]): Nocta.Tag<"dl"> {
 }
 
 /**
- * dt
- * Creates dt Tag node
+ * dt - Creates dt Tag node
  */
 export function dt(): Nocta.Tag<"dt">;
 export function dt(props: Nocta.HTMLProps<"dt">): Nocta.Tag<"dt">;
@@ -468,8 +437,7 @@ export function dt(...args: any[]): Nocta.Tag<"dt"> {
 }
 
 /**
- * em
- * Creates em Tag node
+ * em - Creates em Tag node
  */
 export function em(): Nocta.Tag<"em">;
 export function em(props: Nocta.HTMLProps<"em">): Nocta.Tag<"em">;
@@ -483,16 +451,14 @@ export function em(...args: any[]): Nocta.Tag<"em"> {
 }
 
 /**
- * embed
- * Creates embed Tag node
+ * embed - Creates embed Tag node
  */
 export function embed(props: Nocta.HTMLProps<"embed">): Nocta.Tag<"embed"> {
   return props ? Tag("embed", props) : Tag("embed");
 }
 
 /**
- * fieldset
- * Creates fieldset Tag node
+ * fieldset - Creates fieldset Tag node
  */
 export function fieldset(): Nocta.Tag<"fieldset">;
 export function fieldset(
@@ -508,8 +474,7 @@ export function fieldset(...args: any[]): Nocta.Tag<"fieldset"> {
 }
 
 /**
- * figcaption
- * Creates figcaption Tag node
+ * figcaption - Creates figcaption Tag node
  */
 export function figcaption(): Nocta.Tag<"figcaption">;
 export function figcaption(
@@ -527,8 +492,7 @@ export function figcaption(...args: any[]): Nocta.Tag<"figcaption"> {
 }
 
 /**
- * figure
- * Creates figure Tag node
+ * figure - Creates figure Tag node
  */
 export function figure(): Nocta.Tag<"figure">;
 export function figure(props: Nocta.HTMLProps<"figure">): Nocta.Tag<"figure">;
@@ -542,8 +506,7 @@ export function figure(...args: any[]): Nocta.Tag<"figure"> {
 }
 
 /**
- * footer
- * Creates footer Tag node
+ * footer - Creates footer Tag node
  */
 export function footer(): Nocta.Tag<"footer">;
 export function footer(props: Nocta.HTMLProps<"footer">): Nocta.Tag<"footer">;
@@ -557,8 +520,7 @@ export function footer(...args: any[]): Nocta.Tag<"footer"> {
 }
 
 /**
- * form
- * Creates form Tag node
+ * form - Creates form Tag node
  */
 export function form(): Nocta.Tag<"form">;
 export function form(props: Nocta.HTMLProps<"form">): Nocta.Tag<"form">;
@@ -572,8 +534,7 @@ export function form(...args: any[]): Nocta.Tag<"form"> {
 }
 
 /**
- * head
- * Creates head Tag node
+ * head - Creates head Tag node
  */
 export function head(): Nocta.Tag<"head">;
 export function head(props: Nocta.HTMLProps<"head">): Nocta.Tag<"head">;
@@ -587,8 +548,7 @@ export function head(...args: any[]): Nocta.Tag<"head"> {
 }
 
 /**
- * header
- * Creates header Tag node
+ * header - Creates header Tag node
  */
 export function header(): Nocta.Tag<"header">;
 export function header(props: Nocta.HTMLProps<"header">): Nocta.Tag<"header">;
@@ -602,8 +562,7 @@ export function header(...args: any[]): Nocta.Tag<"header"> {
 }
 
 /**
- * hgroup
- * Creates hgroup Tag node
+ * hgroup - Creates hgroup Tag node
  */
 export function hgroup(): Nocta.Tag<"hgroup">;
 export function hgroup(props: Nocta.HTMLProps<"hgroup">): Nocta.Tag<"hgroup">;
@@ -617,16 +576,14 @@ export function hgroup(...args: any[]): Nocta.Tag<"hgroup"> {
 }
 
 /**
- * hr
- * Creates hr Tag node
+ * hr - Creates hr Tag node
  */
 export function hr(props: Nocta.HTMLProps<"hr">): Nocta.Tag<"hr"> {
   return props ? Tag("hr", props) : Tag("hr");
 }
 
 /**
- * html
- * Creates html Tag node
+ * html - Creates html Tag node
  */
 export function html(): Nocta.Tag<"html">;
 export function html(props: Nocta.HTMLProps<"html">): Nocta.Tag<"html">;
@@ -640,8 +597,7 @@ export function html(...args: any[]): Nocta.Tag<"html"> {
 }
 
 /**
- * i
- * Creates i Tag node
+ * i - Creates i Tag node
  */
 export function i(): Nocta.Tag<"i">;
 export function i(props: Nocta.HTMLProps<"i">): Nocta.Tag<"i">;
@@ -655,8 +611,7 @@ export function i(...args: any[]): Nocta.Tag<"i"> {
 }
 
 /**
- * iframe
- * Creates iframe Tag node
+ * iframe - Creates iframe Tag node
  */
 export function iframe(): Nocta.Tag<"iframe">;
 export function iframe(props: Nocta.HTMLProps<"iframe">): Nocta.Tag<"iframe">;
@@ -670,24 +625,21 @@ export function iframe(...args: any[]): Nocta.Tag<"iframe"> {
 }
 
 /**
- * img
- * Creates img Tag node
+ * img - Creates img Tag node
  */
 export function img(props: Nocta.HTMLProps<"img">): Nocta.Tag<"img"> {
   return props ? Tag("img", props) : Tag("img");
 }
 
 /**
- * input
- * Creates input Tag node
+ * input - Creates input Tag node
  */
 export function input(props?: Nocta.HTMLProps<"input">): Nocta.Tag<"input"> {
   return props ? Tag("input", props) : Tag("input");
 }
 
 /**
- * ins
- * Creates ins Tag node
+ * ins - Creates ins Tag node
  */
 export function ins(): Nocta.Tag<"ins">;
 export function ins(props: Nocta.HTMLProps<"ins">): Nocta.Tag<"ins">;
@@ -701,8 +653,7 @@ export function ins(...args: any[]): Nocta.Tag<"ins"> {
 }
 
 /**
- * kbd
- * Creates kbd Tag node
+ * kbd - Creates kbd Tag node
  */
 export function kbd(): Nocta.Tag<"kbd">;
 export function kbd(props: Nocta.HTMLProps<"kbd">): Nocta.Tag<"kbd">;
@@ -716,8 +667,7 @@ export function kbd(...args: any[]): Nocta.Tag<"kbd"> {
 }
 
 /**
- * label
- * Creates label Tag node
+ * label - Creates label Tag node
  */
 export function label(): Nocta.Tag<"label">;
 export function label(props: Nocta.HTMLProps<"label">): Nocta.Tag<"label">;
@@ -731,8 +681,7 @@ export function label(...args: any[]): Nocta.Tag<"label"> {
 }
 
 /**
- * legend
- * Creates legend Tag node
+ * legend - Creates legend Tag node
  */
 export function legend(): Nocta.Tag<"legend">;
 export function legend(props: Nocta.HTMLProps<"legend">): Nocta.Tag<"legend">;
@@ -746,8 +695,7 @@ export function legend(...args: any[]): Nocta.Tag<"legend"> {
 }
 
 /**
- * li
- * Creates li Tag node
+ * li - Creates li Tag node
  */
 export function li(): Nocta.Tag<"li">;
 export function li(props: Nocta.HTMLProps<"li">): Nocta.Tag<"li">;
@@ -761,16 +709,14 @@ export function li(...args: any[]): Nocta.Tag<"li"> {
 }
 
 /**
- * link
- * Creates link Tag node
+ * link - Creates link Tag node
  */
 export function link(props?: Nocta.HTMLProps<"link">): Nocta.Tag<"link"> {
   return props ? Tag("link", props) : Tag("link");
 }
 
 /**
- * main
- * Creates main Tag node
+ * main - Creates main Tag node
  */
 export function main(): Nocta.Tag<"main">;
 export function main(props: Nocta.HTMLProps<"main">): Nocta.Tag<"main">;
@@ -784,8 +730,7 @@ export function main(...args: any[]): Nocta.Tag<"main"> {
 }
 
 /**
- * map
- * Creates map Tag node
+ * map - Creates map Tag node
  */
 export function map(): Nocta.Tag<"map">;
 export function map(props: Nocta.HTMLProps<"map">): Nocta.Tag<"map">;
@@ -799,8 +744,7 @@ export function map(...args: any[]): Nocta.Tag<"map"> {
 }
 
 /**
- * mark
- * Creates mark Tag node
+ * mark - Creates mark Tag node
  */
 export function mark(): Nocta.Tag<"mark">;
 export function mark(props: Nocta.HTMLProps<"mark">): Nocta.Tag<"mark">;
@@ -814,8 +758,7 @@ export function mark(...args: any[]): Nocta.Tag<"mark"> {
 }
 
 /**
- * menu
- * Creates menu Tag node
+ * menu - Creates menu Tag node
  */
 export function menu(): Nocta.Tag<"menu">;
 export function menu(props: Nocta.HTMLProps<"menu">): Nocta.Tag<"menu">;
@@ -829,16 +772,14 @@ export function menu(...args: any[]): Nocta.Tag<"menu"> {
 }
 
 /**
- * meta
- * Creates meta Tag node
+ * meta - Creates meta Tag node
  */
 export function meta(props: Nocta.HTMLProps<"meta">): Nocta.Tag<"meta"> {
   return props ? Tag("meta", props) : Tag("meta");
 }
 
 /**
- * meter
- * Creates meter Tag node
+ * meter - Creates meter Tag node
  */
 export function meter(): Nocta.Tag<"meter">;
 export function meter(props: Nocta.HTMLProps<"meter">): Nocta.Tag<"meter">;
@@ -852,8 +793,7 @@ export function meter(...args: any[]): Nocta.Tag<"meter"> {
 }
 
 /**
- * nav
- * Creates nav Tag node
+ * nav - Creates nav Tag node
  */
 export function nav(): Nocta.Tag<"nav">;
 export function nav(props: Nocta.HTMLProps<"nav">): Nocta.Tag<"nav">;
@@ -867,8 +807,7 @@ export function nav(...args: any[]): Nocta.Tag<"nav"> {
 }
 
 /**
- * noscript
- * Creates noscript Tag node
+ * noscript - Creates noscript Tag node
  */
 export function noscript(): Nocta.Tag<"noscript">;
 export function noscript(
@@ -884,8 +823,7 @@ export function noscript(...args: any[]): Nocta.Tag<"noscript"> {
 }
 
 /**
- * object
- * Creates object Tag node
+ * object - Creates object Tag node
  */
 export function object(): Nocta.Tag<"object">;
 export function object(props: Nocta.HTMLProps<"object">): Nocta.Tag<"object">;
@@ -899,8 +837,7 @@ export function object(...args: any[]): Nocta.Tag<"object"> {
 }
 
 /**
- * ol
- * Creates ol Tag node
+ * ol - Creates ol Tag node
  */
 export function ol(): Nocta.Tag<"ol">;
 export function ol(props: Nocta.HTMLProps<"ol">): Nocta.Tag<"ol">;
@@ -914,8 +851,7 @@ export function ol(...args: any[]): Nocta.Tag<"ol"> {
 }
 
 /**
- * optgroup
- * Creates optgroup Tag node
+ * optgroup - Creates optgroup Tag node
  */
 export function optgroup(): Nocta.Tag<"optgroup">;
 export function optgroup(
@@ -931,8 +867,7 @@ export function optgroup(...args: any[]): Nocta.Tag<"optgroup"> {
 }
 
 /**
- * option
- * Creates option Tag node
+ * option - Creates option Tag node
  */
 export function option(): Nocta.Tag<"option">;
 export function option(props: Nocta.HTMLProps<"option">): Nocta.Tag<"option">;
@@ -946,8 +881,7 @@ export function option(...args: any[]): Nocta.Tag<"option"> {
 }
 
 /**
- * output
- * Creates output Tag node
+ * output - Creates output Tag node
  */
 export function output(): Nocta.Tag<"output">;
 export function output(props: Nocta.HTMLProps<"output">): Nocta.Tag<"output">;
@@ -961,8 +895,7 @@ export function output(...args: any[]): Nocta.Tag<"output"> {
 }
 
 /**
- * p
- * Creates p Tag node
+ * p - Creates p Tag node
  */
 export function p(): Nocta.Tag<"p">;
 export function p(props: Nocta.HTMLProps<"p">): Nocta.Tag<"p">;
@@ -976,8 +909,7 @@ export function p(...args: any[]): Nocta.Tag<"p"> {
 }
 
 /**
- * picture
- * Creates picture Tag node
+ * picture - Creates picture Tag node
  */
 export function picture(): Nocta.Tag<"picture">;
 export function picture(
@@ -993,8 +925,7 @@ export function picture(...args: any[]): Nocta.Tag<"picture"> {
 }
 
 /**
- * pre
- * Creates pre Tag node
+ * pre - Creates pre Tag node
  */
 export function pre(): Nocta.Tag<"pre">;
 export function pre(props: Nocta.HTMLProps<"pre">): Nocta.Tag<"pre">;
@@ -1008,8 +939,7 @@ export function pre(...args: any[]): Nocta.Tag<"pre"> {
 }
 
 /**
- * progress
- * Creates progress Tag node
+ * progress - Creates progress Tag node
  */
 export function progress(): Nocta.Tag<"progress">;
 export function progress(
@@ -1025,8 +955,7 @@ export function progress(...args: any[]): Nocta.Tag<"progress"> {
 }
 
 /**
- * q
- * Creates q Tag node
+ * q - Creates q Tag node
  */
 export function q(): Nocta.Tag<"q">;
 export function q(props: Nocta.HTMLProps<"q">): Nocta.Tag<"q">;
@@ -1040,8 +969,7 @@ export function q(...args: any[]): Nocta.Tag<"q"> {
 }
 
 /**
- * rp
- * Creates rp Tag node
+ * rp - Creates rp Tag node
  */
 export function rp(): Nocta.Tag<"rp">;
 export function rp(props: Nocta.HTMLProps<"rp">): Nocta.Tag<"rp">;
@@ -1055,8 +983,7 @@ export function rp(...args: any[]): Nocta.Tag<"rp"> {
 }
 
 /**
- * rt
- * Creates rt Tag node
+ * rt - Creates rt Tag node
  */
 export function rt(): Nocta.Tag<"rt">;
 export function rt(props: Nocta.HTMLProps<"rt">): Nocta.Tag<"rt">;
@@ -1070,8 +997,7 @@ export function rt(...args: any[]): Nocta.Tag<"rt"> {
 }
 
 /**
- * ruby
- * Creates ruby Tag node
+ * ruby - Creates ruby Tag node
  */
 export function ruby(): Nocta.Tag<"ruby">;
 export function ruby(props: Nocta.HTMLProps<"ruby">): Nocta.Tag<"ruby">;
@@ -1085,8 +1011,7 @@ export function ruby(...args: any[]): Nocta.Tag<"ruby"> {
 }
 
 /**
- * s
- * Creates s Tag node
+ * s - Creates s Tag node
  */
 export function s(): Nocta.Tag<"s">;
 export function s(props: Nocta.HTMLProps<"s">): Nocta.Tag<"s">;
@@ -1100,8 +1025,7 @@ export function s(...args: any[]): Nocta.Tag<"s"> {
 }
 
 /**
- * samp
- * Creates samp Tag node
+ * samp - Creates samp Tag node
  */
 export function samp(): Nocta.Tag<"samp">;
 export function samp(props: Nocta.HTMLProps<"samp">): Nocta.Tag<"samp">;
@@ -1115,8 +1039,7 @@ export function samp(...args: any[]): Nocta.Tag<"samp"> {
 }
 
 /**
- * script
- * Creates script Tag node
+ * script - Creates script Tag node
  */
 export function script(): Nocta.Tag<"script">;
 export function script(props: Nocta.HTMLProps<"script">): Nocta.Tag<"script">;
@@ -1130,8 +1053,7 @@ export function script(...args: any[]): Nocta.Tag<"script"> {
 }
 
 /**
- * search
- * Creates search Tag node
+ * search - Creates search Tag node
  */
 export function search(): Nocta.Tag<"search">;
 export function search(props: Nocta.HTMLProps<"search">): Nocta.Tag<"search">;
@@ -1145,8 +1067,7 @@ export function search(...args: any[]): Nocta.Tag<"search"> {
 }
 
 /**
- * section
- * Creates section Tag node
+ * section - Creates section Tag node
  */
 export function section(): Nocta.Tag<"section">;
 export function section(
@@ -1162,8 +1083,7 @@ export function section(...args: any[]): Nocta.Tag<"section"> {
 }
 
 /**
- * select
- * Creates select Tag node
+ * select - Creates select Tag node
  */
 export function select(): Nocta.Tag<"select">;
 export function select(props: Nocta.HTMLProps<"select">): Nocta.Tag<"select">;
@@ -1177,8 +1097,7 @@ export function select(...args: any[]): Nocta.Tag<"select"> {
 }
 
 /**
- * small
- * Creates small Tag node
+ * small - Creates small Tag node
  */
 export function small(): Nocta.Tag<"small">;
 export function small(props: Nocta.HTMLProps<"small">): Nocta.Tag<"small">;
@@ -1192,16 +1111,14 @@ export function small(...args: any[]): Nocta.Tag<"small"> {
 }
 
 /**
- * source
- * Creates source Tag node
+ * source - Creates source Tag node
  */
 export function source(props?: Nocta.HTMLProps<"source">): Nocta.Tag<"source"> {
   return props ? Tag("source", props) : Tag("source");
 }
 
 /**
- * span
- * Creates span Tag node
+ * span - Creates span Tag node
  */
 export function span(): Nocta.Tag<"span">;
 export function span(props: Nocta.HTMLProps<"span">): Nocta.Tag<"span">;
@@ -1215,8 +1132,7 @@ export function span(...args: any[]): Nocta.Tag<"span"> {
 }
 
 /**
- * strong
- * Creates strong Tag node
+ * strong - Creates strong Tag node
  */
 export function strong(): Nocta.Tag<"strong">;
 export function strong(props: Nocta.HTMLProps<"strong">): Nocta.Tag<"strong">;
@@ -1230,8 +1146,7 @@ export function strong(...args: any[]): Nocta.Tag<"strong"> {
 }
 
 /**
- * style
- * Creates style Tag node
+ * style - Creates style Tag node
  */
 export function style(): Nocta.Tag<"style">;
 export function style(props: Nocta.HTMLProps<"style">): Nocta.Tag<"style">;
@@ -1245,8 +1160,7 @@ export function style(...args: any[]): Nocta.Tag<"style"> {
 }
 
 /**
- * sub
- * Creates sub Tag node
+ * sub - Creates sub Tag node
  */
 export function sub(): Nocta.Tag<"sub">;
 export function sub(props: Nocta.HTMLProps<"sub">): Nocta.Tag<"sub">;
@@ -1260,8 +1174,7 @@ export function sub(...args: any[]): Nocta.Tag<"sub"> {
 }
 
 /**
- * summary
- * Creates summary Tag node
+ * summary - Creates summary Tag node
  */
 export function summary(): Nocta.Tag<"summary">;
 export function summary(
@@ -1277,8 +1190,7 @@ export function summary(...args: any[]): Nocta.Tag<"summary"> {
 }
 
 /**
- * sup
- * Creates sup Tag node
+ * sup - Creates sup Tag node
  */
 export function sup(): Nocta.Tag<"sup">;
 export function sup(props: Nocta.HTMLProps<"sup">): Nocta.Tag<"sup">;
@@ -1292,8 +1204,7 @@ export function sup(...args: any[]): Nocta.Tag<"sup"> {
 }
 
 /**
- * table
- * Creates table Tag node
+ * table - Creates table Tag node
  */
 export function table(): Nocta.Tag<"table">;
 export function table(props: Nocta.HTMLProps<"table">): Nocta.Tag<"table">;
@@ -1307,8 +1218,7 @@ export function table(...args: any[]): Nocta.Tag<"table"> {
 }
 
 /**
- * tbody
- * Creates tbody Tag node
+ * tbody - Creates tbody Tag node
  */
 export function tbody(): Nocta.Tag<"tbody">;
 export function tbody(props: Nocta.HTMLProps<"tbody">): Nocta.Tag<"tbody">;
@@ -1322,8 +1232,7 @@ export function tbody(...args: any[]): Nocta.Tag<"tbody"> {
 }
 
 /**
- * td
- * Creates td Tag node
+ * td - Creates td Tag node
  */
 export function td(): Nocta.Tag<"td">;
 export function td(props: Nocta.HTMLProps<"td">): Nocta.Tag<"td">;
@@ -1337,8 +1246,7 @@ export function td(...args: any[]): Nocta.Tag<"td"> {
 }
 
 /**
- * template
- * Creates template Tag node
+ * template - Creates template Tag node
  */
 export function template(): Nocta.Tag<"template">;
 export function template(
@@ -1354,8 +1262,7 @@ export function template(...args: any[]): Nocta.Tag<"template"> {
 }
 
 /**
- * textarea
- * Creates textarea Tag node
+ * textarea - Creates textarea Tag node
  */
 export function textarea(): Nocta.Tag<"textarea">;
 export function textarea(
@@ -1371,8 +1278,7 @@ export function textarea(...args: any[]): Nocta.Tag<"textarea"> {
 }
 
 /**
- * tfoot
- * Creates tfoot Tag node
+ * tfoot - Creates tfoot Tag node
  */
 export function tfoot(): Nocta.Tag<"tfoot">;
 export function tfoot(props: Nocta.HTMLProps<"tfoot">): Nocta.Tag<"tfoot">;
@@ -1386,8 +1292,7 @@ export function tfoot(...args: any[]): Nocta.Tag<"tfoot"> {
 }
 
 /**
- * th
- * Creates th Tag node
+ * th - Creates th Tag node
  */
 export function th(): Nocta.Tag<"th">;
 export function th(props: Nocta.HTMLProps<"th">): Nocta.Tag<"th">;
@@ -1401,8 +1306,7 @@ export function th(...args: any[]): Nocta.Tag<"th"> {
 }
 
 /**
- * thead
- * Creates thead Tag node
+ * thead - Creates thead Tag node
  */
 export function thead(): Nocta.Tag<"thead">;
 export function thead(props: Nocta.HTMLProps<"thead">): Nocta.Tag<"thead">;
@@ -1416,8 +1320,7 @@ export function thead(...args: any[]): Nocta.Tag<"thead"> {
 }
 
 /**
- * time
- * Creates time Tag node
+ * time - Creates time Tag node
  */
 export function time(): Nocta.Tag<"time">;
 export function time(props: Nocta.HTMLProps<"time">): Nocta.Tag<"time">;
@@ -1431,8 +1334,7 @@ export function time(...args: any[]): Nocta.Tag<"time"> {
 }
 
 /**
- * title
- * Creates title Tag node
+ * title - Creates title Tag node
  */
 export function title(): Nocta.Tag<"title">;
 export function title(props: Nocta.HTMLProps<"title">): Nocta.Tag<"title">;
@@ -1446,8 +1348,7 @@ export function title(...args: any[]): Nocta.Tag<"title"> {
 }
 
 /**
- * tr
- * Creates tr Tag node
+ * tr - Creates tr Tag node
  */
 export function tr(): Nocta.Tag<"tr">;
 export function tr(props: Nocta.HTMLProps<"tr">): Nocta.Tag<"tr">;
@@ -1461,16 +1362,14 @@ export function tr(...args: any[]): Nocta.Tag<"tr"> {
 }
 
 /**
- * track
- * Creates track Tag node
+ * track - Creates track Tag node
  */
 export function track(props?: Nocta.HTMLProps<"track">): Nocta.Tag<"track"> {
   return props ? Tag("track", props) : Tag("track");
 }
 
 /**
- * u
- * Creates u Tag node
+ * u - Creates u Tag node
  */
 export function u(): Nocta.Tag<"u">;
 export function u(props: Nocta.HTMLProps<"u">): Nocta.Tag<"u">;
@@ -1484,8 +1383,7 @@ export function u(...args: any[]): Nocta.Tag<"u"> {
 }
 
 /**
- * ul
- * Creates ul Tag node
+ * ul - Creates ul Tag node
  */
 export function ul(): Nocta.Tag<"ul">;
 export function ul(props: Nocta.HTMLProps<"ul">): Nocta.Tag<"ul">;
@@ -1499,8 +1397,7 @@ export function ul(...args: any[]): Nocta.Tag<"ul"> {
 }
 
 /**
- * video
- * Creates video Tag node
+ * video - Creates video Tag node
  */
 export function video(): Nocta.Tag<"video">;
 export function video(props: Nocta.HTMLProps<"video">): Nocta.Tag<"video">;
@@ -1514,8 +1411,7 @@ export function video(...args: any[]): Nocta.Tag<"video"> {
 }
 
 /**
- * wbr
- * Creates wbr Tag node
+ * wbr - Creates wbr Tag node
  */
 export function wbr(props?: Nocta.HTMLProps<"wbr">): Nocta.Tag<"wbr"> {
   return props ? Tag("wbr", props) : Tag("wbr");

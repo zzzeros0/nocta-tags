@@ -17,7 +17,7 @@ npm install nocta-tags
 
 ## Usage
 
-Use the HTML tags in your `nocta` project:
+Use the HTML tags in your [`nocta`](https://www.npmjs.com/package/nocta) project:
 
 ```ts
 import { div, button } from "nocta-tags";
