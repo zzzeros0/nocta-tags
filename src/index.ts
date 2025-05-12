@@ -15,6 +15,85 @@ function _c_t<T extends Nocta.HTMLTags>(tag: T, args: any[]): Nocta.Tag<T> {
 }
 
 /**
+ * h1 - Creates h1 Tag node
+ */
+export function h1(): Nocta.Tag<"h1">;
+export function h1(props: Nocta.HTMLProps<"h1">): Nocta.Tag<"h1">;
+export function h1(children: Nocta.NodeChildren): Nocta.Tag<"h1">;
+export function h1(
+  props: Nocta.HTMLProps<"h1">,
+  children: Nocta.NodeChildren
+): Nocta.Tag<"h1">;
+export function h1(...args: any[]): Nocta.Tag<"h1"> {
+  return _c_t("h1", args);
+}
+/**
+ * h2 - Creates h2 Tag node
+ */
+export function h2(): Nocta.Tag<"h2">;
+export function h2(props: Nocta.HTMLProps<"h2">): Nocta.Tag<"h2">;
+export function h2(children: Nocta.NodeChildren): Nocta.Tag<"h2">;
+export function h2(
+  props: Nocta.HTMLProps<"h2">,
+  children: Nocta.NodeChildren
+): Nocta.Tag<"h2">;
+export function h2(...args: any[]): Nocta.Tag<"h2"> {
+  return _c_t("h2", args);
+}
+
+/**
+ * h3 - Creates h3 Tag node
+ */
+export function h3(): Nocta.Tag<"h3">;
+export function h3(props: Nocta.HTMLProps<"h3">): Nocta.Tag<"h3">;
+export function h3(children: Nocta.NodeChildren): Nocta.Tag<"h3">;
+export function h3(
+  props: Nocta.HTMLProps<"h3">,
+  children: Nocta.NodeChildren
+): Nocta.Tag<"h3">;
+export function h3(...args: any[]): Nocta.Tag<"h3"> {
+  return _c_t("h3", args);
+}
+/**
+ * h4 - Creates h4 Tag node
+ */
+export function h4(): Nocta.Tag<"h4">;
+export function h4(props: Nocta.HTMLProps<"h4">): Nocta.Tag<"h4">;
+export function h4(children: Nocta.NodeChildren): Nocta.Tag<"h4">;
+export function h4(
+  props: Nocta.HTMLProps<"h4">,
+  children: Nocta.NodeChildren
+): Nocta.Tag<"h4">;
+export function h4(...args: any[]): Nocta.Tag<"h4"> {
+  return _c_t("h4", args);
+}
+/**
+ * h5 - Creates h5 Tag node
+ */
+export function h5(): Nocta.Tag<"h5">;
+export function h5(props: Nocta.HTMLProps<"h5">): Nocta.Tag<"h5">;
+export function h5(children: Nocta.NodeChildren): Nocta.Tag<"h5">;
+export function h5(
+  props: Nocta.HTMLProps<"h5">,
+  children: Nocta.NodeChildren
+): Nocta.Tag<"h5">;
+export function h5(...args: any[]): Nocta.Tag<"h5"> {
+  return _c_t("h5", args);
+}
+/**
+ * h6 - Creates h6 Tag node
+ */
+export function h6(): Nocta.Tag<"h6">;
+export function h6(props: Nocta.HTMLProps<"h6">): Nocta.Tag<"h6">;
+export function h6(children: Nocta.NodeChildren): Nocta.Tag<"h6">;
+export function h6(
+  props: Nocta.HTMLProps<"h6">,
+  children: Nocta.NodeChildren
+): Nocta.Tag<"h6">;
+export function h6(...args: any[]): Nocta.Tag<"h6"> {
+  return _c_t("h6", args);
+}
+/**
  * a - Creates a Tag node
  */
 export function a(): Nocta.Tag<"a">;
